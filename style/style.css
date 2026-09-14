@@ -1,3 +1,62 @@
 body {
     background-color: slategrey;
 }
+
+header{
+    background-color: #A50021;
+}
+
+h1 {
+    color: lightgoldenrodyellow;
+}
+
+.container{
+    max-width: 1000px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+}
+
+article img {
+    width: 500px;
+}
+
+img {
+    height: auto;
+    width: 100px;
+}
+
+aside{
+    background-color: #F0EEE9;
+
+}
+
+nav li {
+    float: left;
+    margin-right: 30px;
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav a:hover{
+    animation-name: rainbow;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    from{color: blue}
+    to{color: red}
+}
