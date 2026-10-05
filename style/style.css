@@ -1,40 +1,58 @@
 body {
+    display: flex;
+    flex-direction: column;
     background-color: slategrey;
 }
 
-header{
-    background-color: #A50021;
+header {
+    justify-items: center;
 }
 
 h1 {
     color: lightgoldenrodyellow;
 }
 
+#title {
+    transform: translate(0px, -90%);
+    justify-items: center;
+    background-color: #A50021;
+}
+
+.horseimg1 {
+    display: flex;
+    justify-content: end;
+    transform: translate(-5%, -80px);
+}
+
+.horseimg1 img {
+        height: 20%;
+        width: 30%;
+}
+
+.container article p {
+   width: 60%;
+}
+
 .container{
-    max-width: 1000px;
     margin-inline: auto;
     padding-inline: 1rem;
-
 }
 
 nav ul {
     list-style-type: none;
-    display: flex;
     gap: 70px;
 }
 
-article img {
-    width: 500px;
-}
-
-img {
+aside img {
     height: auto;
-    width: 100px;
+    width: 10px;
 }
 
 aside{
+    display: flex;
+    align-content: end;
+    max-width: auto;
     background-color: #F0EEE9;
-
 }
 
 nav li {
